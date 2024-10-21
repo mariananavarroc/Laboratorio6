@@ -1,0 +1,54 @@
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.carousel-container {
+    display: flex; /* Agregamos display flex */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+.carousel {
+    width: 800px; /* Cambia el ancho que desees */
+    height: 400px; /* Cambia la altura que desees */
+    overflow: hidden; /* Oculta el desbordamiento */
+}
+
+.carousel-inner img {
+    width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+    height: 100%; /* Ajusta la altura de la imagen al contenedor */
+    object-fit: cover; /* Cubre el contenedor manteniendo la proporción */
+}
+
+.card-body {
+    padding-left: 10px;  /* Reduce el padding a la izquierda */
+    padding-right: 10px; /* Reduce el padding a la derecha */
+}
+
+.card-text {
+    margin-left: 0;  /* Elimina el margen a la izquierda */
+    margin-right: 0; /* Elimina el margen a la derecha */
+}
+
+p {
+    font-size: 20px;
+    padding-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 0px;
+}
+
+.git {
+    width: 600px;
+    height: 337px;
+    align-items: center;
+    margin-left: 25%;
+}
